@@ -15,7 +15,7 @@ function App() {
     <BrowserRouter>
       <div className='container bg-success p-2 text-dark bg-opacity-25 mt-5'>
         <Routes>
-          <Route path="/customerlogin" element={<CustomerLogin />} />
+          <Route path="/" element={<CustomerLogin />} />
           <Route path="/customerregister" element={<Customerregister />} />
           <Route path="/servicelist" element={<Servicelist />} />
           <Route path="/form" element={< Form />} />
