@@ -43,7 +43,7 @@ const Customerregister = () => {
       <div className="row">
         <div className="col-sm-12 col-md-12 col-lg-12 login">
           <div className="mt-4">
-            <h1 className="text-center login-head">Join us ...To Service your Vehicle</h1>
+            <h1 className="text-center login-head">Join us ...</h1>
           </div>
           <div className="mt-3 col-sm-12 col-md-12 col-lg-12 login-border">
             <form className="m-5" onSubmit={formik.handleSubmit}>

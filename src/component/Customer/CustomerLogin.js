@@ -46,7 +46,7 @@ const CustomerLogin = () => {
             <div className="row">
                 <div className="col-sm-12 col-md-12 col-lg-12 login">
                     <div className="mt-2">
-                        <h1 className="text-center login-head">Customer Service</h1>
+                        <h1 className="text-center login-head">User Login</h1>
                     </div>
                     <div className="mt-5 login-border col-sm-12 col-md-12 col-lg-12">
                         <form className="m-5" onSubmit={formik.handleSubmit}>
