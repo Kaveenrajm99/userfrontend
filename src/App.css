@@ -1,0 +1,203 @@
+.box {
+    margin-top: 2%;
+    padding: 5px;
+}
+
+.boxs {
+    margin-top: 5px;
+    width: 5rem;
+}
+.wrapper {
+    margin: 5px;
+    padding: 20px;
+    justify-content: left;
+    align-items: left;
+}
+
+.post {
+    margin: 5px;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.loading {
+    text-align: center;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="date"],
+input[type="email"] {
+    height: 35px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background: #01d28e;
+    border: 1px solid #01d28e;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+input[type="submit"]:hover {
+    background: #6cf0c2;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+        .card-control-section.vertical_card_layout #vertical_business.e-card .e-card-header .e-card-header-title,
+        .card-control-section.vertical_card_layout #vertical_business_profile.e-card .e-card-header .e-card-header-title {
+            font-size: 18px;
+        }
+    
+        .card-control-section.vertical_card_layout #vertical_business_profile.e-card .e-card-header {
+            text-align: left;
+        }
+    
+        .card-control-section.vertical_card_layout #vertical_business_profile.e-card>* {
+            height: 50%;
+        }
+    
+        .card-control-section.vertical_card_layout #vertical_business_profile.e-card .e-card-content {
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .card-control-section.vertical_card_layout #vertical_business_profile.e-card .e-card-header-caption .e-card-sub-title,
+        .card-control-section.vertical_card_layout #vertical_business_profile.e-card .e-card-header-caption .e-card-header-title,
+        .card-control-section.vertical_card_layout #vertical_business_profile.e-card .e-card-content table td {
+            color: #fff;
+        }
+    
+        .card-control-section.vertical_card_layout #vertical_business.e-card {
+            justify-content: flex-end;
+        }
+    
+        .card-control-section.vertical_card_layout #vertical_business.e-card,
+        .card-control-section.vertical_card_layout #vertical_business_profile.e-card {
+            text-align: center;
+            background-size: cover;
+            height: 300px;
+        }
+    
+        .card-control-section.vertical_card_layout #vertical_business.e-card .e-card-header-caption .e-card-header-title,
+        .card-control-section.vertical_card_layout #vertical_business.e-card .e-card-header-caption .e-card-sub-title,
+        .card-control-section.vertical_card_layout #vertical_business.e-card .e-card-actions button {
+            color: #000;
+        }
+    
+        .card-control-section.vertical_card_layout #vertical_business.e-card {
+            background-image: url('https://ej2.syncfusion.com/react/demos/src/card/images/vertical_img.png');
+        }
+    
+        .card-control-section.vertical_card_layout #vertical_business_profile.e-card {
+            background-image: url('https://ej2.syncfusion.com/react/demos/src/card/images/vertical_img01.png');
+        }
+    
+        .card-control-section.vertical_card_layout #vertical_business.e-card .e-card-actions,
+        .card-control-section.vertical_card_layout #vertical_business_profile.e-card .e-card-actions {
+            justify-content: center;
+            padding-bottom: 40px;
+            padding-top: 22px;
+        }
+    
+        .card-control-section.vertical_card_layout #vertical_business.e-card .e-card-actions button,
+        .card-control-section.vertical_card_layout #vertical_business_profile.e-card .e-card-actions button {
+            background-color: transparent;
+            text-transform: none;
+            border: none;
+        }
+    
+        /* Profile card Customization */
+    
+        .highcontrast .card-control-section.vertical_card_layout .e-card.profile .e-card-header-image {
+            border-color: #fff;
+        }
+    
+        .card-control-section.vertical_card_layout .e-card.profile .e-card-header-image {
+            background-image: url('https://ej2.syncfusion.com/react/demos/src/card/images/8.png');
+            width: 132px;
+            height: 120px;
+            background-size: cover;
+            border-style: solid;
+            border-color: rgba(0, 0, 0, 0.54);
+        }
+    
+        .card-control-section.vertical_card_layout .e-card.profile .e-card-header-caption.center,
+        .card-control-section.vertical_card_layout .e-card.profile .e-card-content {
+            text-align: center;
+        }
+    
+        .card-control-section.vertical_card_layout .e-card.profile .e-card-btn {
+            height: 45px;
+            width: 50px;
+            background-color: transparent;
+            border: none;
+        }
+    
+        .card-control-section.vertical_card_layout .e-card.profile .e-card-actions button.e-card-btn:hover,
+        .card-control-section.vertical_card_layout .e-card.profile .e-card-actions a:first-child:hover,
+        .card-control-section.vertical_card_layout .e-card.profile .e-card-actions button.e-card-btn,
+        .card-control-section.vertical_card_layout .e-card.profile .e-card-actions a:first-child {
+            background: #ffff
+        }
+    
+        .card-control-section.vertical_card_layout .e-card .e-card-actions.center {
+            justify-content: center;
+            display: flex;
+        }
+    
+        .card-control-section.vertical_card_layout .e-card.profile .e-card-actions.center {
+            background-color: transparent;
+            border: none;
+        }
+    
+        .card-control-section.vertical_card_layout .e-card.profile .e-card-header .e-card-header-caption .e-card-sub-title {
+            font-size: 14px;
+            font-weight: 400;
+            color: rgba(0, 0, 0, 0.8);
+        }
+    
+        .card-control-section.vertical_card_layout .e-card.profile .e-card-header .e-card-header-caption .e-card-header-title {
+            font-size: 18px;
+            font-weight: 500;
+        }
+    
+        .card-control-section.vertical_card_layout .col-xs-6.col-sm-6.col-lg-6.col-md-6 {
+            width: 100%;
+            padding: 10px;
+        }
+    
+        .card-control-section.vertical_card_layout .card-layout {
+            margin: auto;
+            max-width: 400px;
+        }
+    
+        @media (min-width: 870px) {
+            .card-control-section.vertical_card_layout .col-xs-6.col-sm-6.col-lg-6.col-md-6 {
+                width: 50%;
+            }
+    
+            .card-control-section.vertical_card_layout .card-layout {
+                max-width: 870px;
+            }
+        }
