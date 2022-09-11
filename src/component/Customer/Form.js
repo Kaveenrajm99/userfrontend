@@ -48,7 +48,7 @@ const Form = () => {
         },
         onSubmit: async values => {
             try {
-                await axios.post("http://localhost:3001/userdetail", values)
+                await axios.post("https://userdetailsforguvi.herokuapp.com/userdetail", values)
                 alert("Data Saved ")
                 navigate('/servicelist')
             } catch (error) {
