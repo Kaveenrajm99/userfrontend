@@ -30,7 +30,7 @@ const Form = () => {
                 errors.user_tel = 'Enter your Mobile Number Ex : 99xxx-xxx00';
             }
             else if (!values.user_date) {
-                errors.user_date = 'Enter your Date Of Birth ';
+                errors.user_date = 'Enter your Date Of Birth Before 2020 Year ';
             }
             else if (!values.user_address) {
                 errors.user_address = 'Enter your Address';
